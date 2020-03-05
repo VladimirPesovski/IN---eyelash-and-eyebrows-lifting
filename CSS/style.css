@@ -1,18 +1,10 @@
 
-@font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway-Medium.eot');
-    src: url('fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Raleway-Medium.woff2') format('woff2'),
-        url('fonts/Raleway-Medium.woff') format('woff'),
-        url('fonts/Raleway-Medium.ttf') format('truetype'),
-        url('fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    
+    background-color: mistyrose;
     font-family: 'Raleway', sans-serif;  
     
 }
@@ -32,4 +24,41 @@ nav {
 }
 .navbar li{
     padding: 20px 50px;   
+}
+
+header {
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;  
+    
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;   
+}
+hr {
+    border-top: 5px solid black;
+}
+.intro {
+    /* display: flex;
+    flex-direction: row; */
+}
+.mypic {
+  display: block;
+  
+  width: 50%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto; 
+  border-radius: 50%;    
+}
+.mybio h1{
+    font-size: 1.5em;
+    text-align: center;
 }
