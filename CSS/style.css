@@ -71,6 +71,37 @@ hr {
     text-align: center;
 }
 
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    
+}
+
+
+
+.makeup {
+    
+    display: flex;
+    
+    width: 45%;
+    height: 50%;
+    border: 5px solid ivory;
+    margin: 5px;
+    
+}
+.eyelashextension {
+    display: flex;
+    
+    width: 45%;
+    height: 50%;
+    border: 5px solid ivory;
+    margin: 5px;
+    
+}
+
 @keyframes tonext {
     75% {
       left: 0;
