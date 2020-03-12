@@ -1,0 +1,70 @@
+html {
+    background-image: url("../assets/background-image.jpg");
+    font-family: 'Raleway', sans-serif;
+    color: mistyrose;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 40px;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 4git a0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+img {
+    
+    display: grid;
+    height: 110px;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+.followus {
+    padding-top: 10px;
+    text-align: center;
+}
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 10px;
+}
+.socialmedia li{
+    padding: 10px 20px;
+}
+.socialmedia i {
+    color: white;
+    font-size: 60px;
+}
+.contactus {
+    padding-top: 10px;
+    text-align: center;
+}
+.contact {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+.contact p{
+    margin: 5px; 
+}
+.contact a{
+    color: white;
+}
