@@ -8,7 +8,8 @@ body {
     background-image: url(../assets/background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Raleway', sans-serif;  
+    font-family: 'Raleway', sans-serif;
+    
     color: mistyrose;
     text-decoration: none;
     
@@ -28,7 +29,13 @@ nav {
    
 }
 .navbar li{
-    padding: 20px 20px;   
+    padding: 20px 20px;  
+    
+}
+
+li a{
+    text-decoration: none; 
+    color: white;
 }
 
 header {
@@ -36,7 +43,7 @@ header {
     /* flex-direction: row; */
     margin-left: auto;
     margin-right: auto;
-    padding-top: 70px;  
+    padding-top: 80px;  
     
 }
 

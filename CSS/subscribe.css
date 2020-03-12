@@ -1,11 +1,14 @@
 html {
     background-image: url("../assets/background-image.jpg");
-    font-family: Raleway;
-    font-size: 1.5em;
+    
+    font-family: 'Raleway', sans-serif;
+    
+    color: mistyrose;
+    text-decoration: none;
     
 }
 
-p {
+.newsletter {
     font-size: 1.5em;
     text-align: center;
     padding: 30px 0px;
@@ -21,21 +24,76 @@ div#mc_embed_signup_scroll {
     border: 1px solid black;
     width: 250px;
     margin: 0px 10px;
+    padding: 0px 10px;
     
     
 }
 
-#labelinput {
-    
-    justify-content: center;
-}
 .button {
     border: 1px solid black;
     
     height: auto;
-    padding: 8px 0px;
-    margin: 0px 5px;
+    padding: 8px 10px;
+    margin: 0px 5px;   
     
+}
+
+
+footer {
+    position: fixed;
+    
+  
+  bottom: 0;
+  width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+
+}
+
+
+.followus {
+    padding-top: 10px;
+    text-align: center;
+}
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 10px;
+    
+}
+.socialmedia li{
+    padding: 10px 20px;
+    
+}
+
+.socialmedia i {
+    color: white;
+    font-size: 60px;
+   
+}
+
+.contactus {
+    padding-top: 10px;
+    text-align: center;
+    
+}
+.contact {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
     
 }
+
+.contact p{
+    margin: 5px;
+    
+    
+}
+.contact a{
+    color: white;
+   
+}
+
