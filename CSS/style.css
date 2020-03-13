@@ -23,13 +23,28 @@ nav {
     text-align: center;
     justify-content: center;    
 }
+.navitems {
+    display: flex;
+    justify-content: center; 
+}
+.language {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px 0px 0px;
+}
+
+.language img {
+    padding: 0px 10px;
+}
 .navbar li{
-    padding: 20px 20px;     
+    padding: 20px 5px;     
 }
 li a{
     text-decoration: none; 
     color: white;
 }
+
+
 header {
     margin-left: auto;
     margin-right: auto;
@@ -38,7 +53,7 @@ header {
 .logo {
   display: flex;
   justify-content: center;
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;   
 }
@@ -52,7 +67,7 @@ hr {
 }
 .mypic {
   display: block;
-  width: 50%;
+  width: 60%;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto; 
