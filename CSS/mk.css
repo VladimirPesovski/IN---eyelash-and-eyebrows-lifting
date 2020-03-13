@@ -7,7 +7,7 @@ body {
     background-image: url(../assets/background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: mistyrose;
     text-decoration: none; 
 }
@@ -53,7 +53,7 @@ header {
 .logo {
   display: flex;
   justify-content: center;
-  width: 60%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;   
 }
@@ -76,13 +76,14 @@ hr {
 .mybio h1{
     font-size: 1.5em;
     text-align: center;
-    color: mistyrose;  
+    color: mistyrose; 
+     
 }
 .mybio h2{
     text-align: justify;
     padding: 0px 10px;
     color: mistyrose;   
-}   
+}
 .categories {
     display: flex;
     flex-direction: row;
@@ -310,13 +311,14 @@ ol, li {
   .carousel::after {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
   }
+
 .testimonials h3 {
     text-align: center;
 }
 .testimonials {
     text-align: justify;
     padding: 10px 10px;
-    color: mistyrose; 
+    color: mistyrose;
 }
 footer {
     background-color: black;
