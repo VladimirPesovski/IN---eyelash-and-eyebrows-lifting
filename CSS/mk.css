@@ -78,14 +78,13 @@ hr {
 .mybio h1{
     font-size: 1.8em;
     text-align: center;
-    color: mistyrose; 
-     
+    color: mistyrose;  
 }
 .mybio h2{
     text-align: justify;
     padding: 0px 10px;
     color: mistyrose;   
-}
+}   
 .categories {
     display: flex;
     flex-direction: row;
@@ -195,7 +194,7 @@ ol, li {
     background-image: url("../assets/carousel1.jpg");
     background-size: cover;
     counter-increment: item;
-  }
+}
 .carousel__slide:nth-child(2) {
     background-image: url("../assets/carousel2.jpg");
     background-size: cover;
@@ -313,18 +312,18 @@ ol, li {
   .carousel::after {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
   }
-
 .testimonials h3 {
     text-align: center;
 }
 .testimonials {
     text-align: justify;
     padding: 10px 10px;
-    color: mistyrose;
+    color: mistyrose; 
 }
 footer {
     background-color: black;
     color: white;
+    justify-content: center;
 }
 .followus {
     padding-top: 10px;
@@ -354,8 +353,175 @@ footer {
 }
 .contact p{
     margin: 5px; 
+    
 }
 .contact a{
     color: white;
+    text-decoration: none;
 }
+footer h6{
+    text-align: center;
+    padding: 10px;
+    opacity: 60%;
+}
+
+
+/* Tablet version */
+
+@media (min-width: 600px) {
+
+    * {
+        font-size: 1.5em;
+    }
+
+    .navitems {
+        justify-content: space-evenly;
+        
+    }
+    .navitems a{
+        padding: 0px 5px;
+    }
+    .language {
+        padding-left: 50px;
+    }
+    .ipad {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+    }
+    .logo {
+        width: 35%;
+    }
+    .mypic {
+        width: 250px;
+        height: auto;
+        padding: 0px 10px 0px 20px;
+        
+    }
+    .intro {
+        display: flex;
+        flex-direction: row;
+        padding: 0px 10px;
+    }
+    .mybio h1{
+        font-size: 1.1em;
+        width: auto;
+        line-height: 1.3em;
+        
+    }
+    .mybio h2 {
+        font-size: 0.6em;
+        padding-right: 20px;
+        
+    }
+    .testimonials {
+        font-size: 0.6em;
+    }
+    .socialmedia {
+        justify-content: space-around;
+    }
+}
+
+/* Desktop Version */
+
+@media (min-width: 1240px) {
+    .navitems a{
+        padding: 0px 50px;
+    }
+    .language {
+        padding-left: 100px;
+    }
+    .language a {
+        padding: 0px 5px;
+    }
+    .logo {
+        width: 20%;
+    }
+    .mybio h1 {
+        font-size: 1.5em;
+    }
+    .mybio h2 {
+        font-size: 0.9em;
+    }
+    .categories{
+        justify-content: space-evenly;
+    }
+    .makeup {
+        width: 20%;
+    }
+    .eyelashextension {
+        width: 20%;
+    }
+    .carousel{
+        padding: 15%;
+        width: 150px;
+        margin-left: 20px;  
+    }
+
+    .desktop {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .testimonials h3 {
+        font-size: 1.5em;
+    }
+    .individualtestimonial {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+    }
+    .testimonial1, .testimonial2, .testimonial3 {
+        flex-direction: row;
+        width: 33%;
+        padding: 10px 20px;
+        border: 1px solid mistyrose;
+        border-radius: 15px;
+        margin: 0px 10px;
+        font-size: 1.4em;
+        background-color: rgb(51, 50, 49);
+        opacity: 50%;
+        color: mistyrose;
+    }
+    
+    .footerdesktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .followus {
+        display: flex;
+        flex-direction: row;
+        padding: 40px 20px;
+        justify-content: left;
+        font-size: 1.1em;
+    }
+    .socialmedia {
+        justify-content: left;
+        padding: 20px 20px;
+    }
+    .socialmedia li {
+        padding: 0px 20px 0px 0px;
+    }
+    .contactus {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.1em;
+        padding: 40px 10px;
+        
+    }
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 1.1em;
+        padding: 40px 10px;
+    }
+    .contact a {
+        padding: 0px 10px;
+        justify-content: space-between;
+    }
+
+    }
 
