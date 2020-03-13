@@ -479,7 +479,7 @@ footer h6{
         border: 1px solid mistyrose;
         border-radius: 15px;
         margin: 0px 10px;
-        font-size: 1.4em;
+        font-size: 1.3em;
         background-color: rgb(51, 50, 49);
         opacity: 50%;
         color: mistyrose;
@@ -495,7 +495,7 @@ footer h6{
         flex-direction: row;
         padding: 40px 20px;
         justify-content: left;
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .socialmedia {
         justify-content: left;
@@ -507,19 +507,24 @@ footer h6{
     .contactus {
         display: flex;
         flex-direction: row;
-        font-size: 1.1em;
-        padding: 40px 10px;
+        font-size: 1em;
+        padding: 40px 5px;
         
     }
     .contact {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        font-size: 1.1em;
-        padding: 40px 10px;
+        font-size: 1em;
+        padding: 40px 5px;
     }
     .contact a {
-        padding: 0px 10px;
+        padding: 0px 5px;
+        justify-content: space-between;
+    }
+    .contact p {
+        margin: 0px;
+        padding: 0px 5px;
         justify-content: space-between;
     }
 
