@@ -69,7 +69,7 @@ hr {
 }
 .mypic {
   display: block;
-  width: 60%;
+  width: 40%;
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto; 
@@ -384,37 +384,24 @@ footer h6{
     .language {
         padding-left: 50px;
     }
-    .ipad {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        
-    }
+    
     .logo {
-        width: 35%;
+      width: 40%;  
     }
     .mypic {
-        width: 250px;
-        height: auto;
-        padding: 0px 10px 0px 20px;
-        
-    }
-    .intro {
-        display: flex;
-        flex-direction: row;
-        padding: 0px 10px;
+      display: block;
+      width: 20%;
+       
     }
     .mybio h1{
-        font-size: 1.1em;
-        width: auto;
-        line-height: 1.3em;
+        font-size: 2em;
         
     }
-    .mybio h2 {
-        font-size: 0.6em;
-        padding-right: 20px;
-        
-    }
+    .mybio h2{
+        font-size: 1.3em;
+
+ 
+    }   
     .testimonials {
         font-size: 0.6em;
     }
@@ -439,10 +426,10 @@ footer h6{
         width: 20%;
     }
     .mybio h1 {
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
     .mybio h2 {
-        font-size: 0.9em;
+        font-size: 1.3em;
     }
     .categories{
         justify-content: space-evenly;
